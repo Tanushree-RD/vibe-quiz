@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ffb6c1, #b8c0ff);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quiz-container, #result-container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+#options button {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  background-color: #ffffff20;
+  color: white;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#options button:hover {
+  background-color: #ffffff40;
+}
+
+#next-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #dc85b1;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#next-btn:hover {
+  background-color: #18070f;
+}
+
+.share {
+  margin-top: 20px;
+}
+
+.share p {
+  font-family: 'Pacifico', cursive;
+  font-size: 1rem;
+}
+
+.share a {
+  display: inline-block;
+  margin: 8px;
+  padding: 8px 14px;
+  background: #ff80bf;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.share a:hover {
+  background: #d57dc6;
+}
+.selected {
+  background-color: #c55299 !important;
+  color: #fff;
+  transform: scale(1.02);
+  box-shadow: 0 0 10px #ffffff60;
+}
+
